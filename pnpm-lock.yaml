@@ -20,7 +20,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@acme/ui':
+      '@orustecnologia/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       react:
