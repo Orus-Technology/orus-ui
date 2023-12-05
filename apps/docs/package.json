@@ -1,5 +1,5 @@
 {
-  "name": "@repo/docs",
+  "name": "@orustecnologia/docs",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
+    "@orustecnologia/eslint-config": "workspace:*",
     "@storybook/addon-actions": "^7.5.3",
     "@storybook/addon-docs": "^7.5.3",
     "@storybook/addon-essentials": "^7.5.3",
@@ -27,7 +27,7 @@
     "eslint": "^8.54.0",
     "serve": "^14.2.1",
     "storybook": "^7.5.3",
-    "@repo/typescript-config": "workspace:*",
+    "@orustecnologia/typescript-config": "workspace:*",
     "typescript": "^5.3.2",
     "vite": "^5.0.2"
   }
