@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="./assets/logo-orus.svg" width="100px" 50%" alt="Orus Tecnologia" style="border-radius: 10px;" />
+</p>
+
 # Design System da Orus Tecnologia
 
 Bem-vindo ao repositório oficial do Design System da Orus Tecnologia! Este repositório contém todos os componentes, padrões, diretrizes e ferramentas necessárias para criar interfaces de usuário consistentes e eficazes para todos os nossos produtos digitais. Nosso sistema de design é mais do que apenas um conjunto de componentes visuais; ele representa a união de princípios de design, melhores práticas e filosofias de desenvolvimento que orientam a experiência do usuário em todos os nossos projetos e iniciativas.
@@ -10,17 +14,21 @@ Bem-vindo ao repositório oficial do Design System da Orus Tecnologia! Este repo
 - **Ferramentas e Utilitários**: Conjunto de ferramentas e utilitários para ajudar nossos desenvolvedores e designers a trabalhar de forma mais eficiente e coerente.
 - **Guias de Princípios de Design**: Nossos princípios fundamentais de design que orientam a criação e o uso de nossos componentes.
 
-## Como Usar
+## Como Usar (WIP-Ainda não disponível)
 
 Para começar a usar o Design System da Orus Tecnologia em seus projetos, siga as instruções de instalação e implementação abaixo:
 
 ### Adicionar o pacote ui em seu projeto utilize o gerenciador de pacotes da sua preferência, (npm, pnpm ou yarn)
+
 ```sh
 # exemplo de uso com pnpm:
 pnpm install @orustecnologia/ui
 ```
+
 ## Usando os componentes em seus arquivos do projeto
+
 Após acrescentar a biblioteca ui em seu projeto, importe o componente desejado em seu arquivo
+
 ```javascript
   import { Button } from '@orustecnologia/ui'
 
@@ -37,7 +45,6 @@ Após acrescentar a biblioteca ui em seu projeto, importe o componente desejado 
  }
 ```
 
-
 ## Contribuição
 
 Agradecemos contribuições da comunidade! Se você deseja contribuir, por favor leia nosso guia de contribuição para entender como você pode participar e ajudar a melhorar o Design System da Orus Tecnologia.
@@ -45,3 +52,13 @@ Agradecemos contribuições da comunidade! Se você deseja contribuir, por favor
 ## Licença
 
 Este projeto está licenciado sob os termos da [Licença MIT](LICENSE).
+### Autor
+---
+<div align="center">
+<a href="https://www.linkedin.com/in/julianotavares/">
+ <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/121337912?s=400&u=eb0b8bc661df6b85e4a2825effef0f0412c86b13&v=4" width="100px;" alt="Orus Tecnologia"  style="border-radius: 10px;" />
+ <br />
+ <sub><b>Orus Tecnologia</b></sub></a> <a href="https://github.com/Orus-Technology" title="Orus Tecnologia">🚀</a>
+
+Feito com ❤️ por Orus Tecnologia 👋🏽!
+</div>
