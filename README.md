@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./assets/logo-orus.svg" width="100px" 50%" alt="Orus Tecnologia" style="border-radius: 10px;" />
+    <img src="./assets/logo-orus.svg" width="100px" alt="Orus Tecnologia" style="border-radius: 10px;" />
 </p>
 
 # Design System da Orus Tecnologia
