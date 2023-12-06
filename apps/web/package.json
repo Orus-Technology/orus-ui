@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@orustecnologia/tailwind-config": "^0.0.0",
+    "@orustecnologia/ui": "*",
     "next": "^14.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@orustecnologia/ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.19",
+    "@orustecnologia/eslint-config-custom": "*",
+    "@orustecnologia/tsconfig": "*",
     "@types/node": "^18.11.17",
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.4",
     "autoprefixer": "^10.4.13",
-    "eslint-config-custom": "*",
     "postcss": "^8.4.20",
-    "tailwind-config": "*",
     "tailwindcss": "^3.2.4",
-    "tsconfig": "*",
     "typescript": "^5.2.2"
   }
 }

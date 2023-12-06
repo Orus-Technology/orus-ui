@@ -1,51 +1,47 @@
-# Turborepo Tailwind CSS starter
+# Design System da Orus Tecnologia
 
-This is an official starter Turborepo.
+Bem-vindo ao repositório oficial do Design System da Orus Tecnologia! Este repositório contém todos os componentes, padrões, diretrizes e ferramentas necessárias para criar interfaces de usuário consistentes e eficazes para todos os nossos produtos digitais. Nosso sistema de design é mais do que apenas um conjunto de componentes visuais; ele representa a união de princípios de design, melhores práticas e filosofias de desenvolvimento que orientam a experiência do usuário em todos os nossos projetos e iniciativas.
 
-## Using this example
+## Características
 
-Run the following command:
+- **Componentes Reutilizáveis**: Uma biblioteca abrangente de componentes reutilizáveis, criados com foco em acessibilidade, responsividade e facilidade de uso.
+- **Diretrizes de Estilo**: Diretrizes detalhadas para tipografia, cores, ícones e outros elementos visuais para garantir consistência e identidade de marca.
+- **Documentação**: Documentação completa para cada componente e padrão, incluindo exemplos de código e melhores práticas de implementação.
+- **Ferramentas e Utilitários**: Conjunto de ferramentas e utilitários para ajudar nossos desenvolvedores e designers a trabalhar de forma mais eficiente e coerente.
+- **Guias de Princípios de Design**: Nossos princípios fundamentais de design que orientam a criação e o uso de nossos componentes.
 
+## Como Usar
+
+Para começar a usar o Design System da Orus Tecnologia em seus projetos, siga as instruções de instalação e implementação abaixo:
+
+### Adicionar o pacote ui em seu projeto utilize o gerenciador de pacotes da sua preferência, (npm, pnpm ou yarn)
 ```sh
-npx create-turbo@latest -e with-tailwind
+# exemplo de uso com pnpm:
+pnpm install @orustecnologia/ui
+```
+## Usando os componentes em seus arquivos do projeto
+Após acrescentar a biblioteca ui em seu projeto, importe o componente desejado em seu arquivo
+```javascript
+  import { Button } from '@orustecnologia/ui'
+
+  /*
+  * Utilize a importação em seu arquivo
+  */
+ 
+ export default App() {
+  return (
+    <>
+      <Button>Hello</Button>
+    </>
+  )
+ }
 ```
 
-## What's inside?
 
-This Turborepo includes the following packages/apps:
+## Contribuição
 
-### Apps and Packages
+Agradecemos contribuições da comunidade! Se você deseja contribuir, por favor leia nosso guia de contribuição para entender como você pode participar e ajudar a melhorar o Design System da Orus Tecnologia.
 
-- `docs`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `web`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+## Licença
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Building packages/ui
-
-This example is setup to build `packages/ui` and output the transpiled source and compiled styles to `dist/`. This was chosen to make sharing one `tailwind.config.js` as easy as possible, and to ensure only the CSS that is used by the current application and its dependencies is generated.
-
-Another option is to consume `packages/ui` directly from source without building. If using this option, you will need to update your `tailwind.config.js` to be aware of your package locations, so it can find all usages of the `tailwindcss` class names.
-
-For example, in [tailwind.config.js](packages/tailwind-config/tailwind.config.js):
-
-```js
-  content: [
-    // app content
-    `src/**/*.{js,ts,jsx,tsx}`,
-    // include packages if not transpiling
-    "../../packages/**/*.{js,ts,jsx,tsx}",
-  ],
-```
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [Tailwind CSS](https://tailwindcss.com/) for styles
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+Este projeto está licenciado sob os termos da [Licença MIT](LICENSE).

@@ -1,5 +1,4 @@
 {
   "extends": "@orustecnologia/tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "include": ["src"]
 }
